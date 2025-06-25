@@ -1,19 +1,19 @@
-# 🔍 Vision Transformer (ViT) for CIFAR-10 Classification
+# Vision Transformer (ViT) for CIFAR-10 Classification
 
 This repository implements a **Vision Transformer (ViT)** from scratch using **PyTorch** to classify images from the CIFAR-10 dataset. The model integrates modern training techniques such as enhanced data augmentation, label smoothing, cosine annealing learning rate scheduling with warm-up, gradient clipping, and visualization of attention maps and predictions.
 
-> ✅ **Achieved Test Accuracy:** `84%` on the CIFAR-10 test set.
+> **Achieved Test Accuracy:** `84%` on the CIFAR-10 test set.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **CIFAR-10**: A standard benchmark dataset for image classification consisting of 60,000 32x32 color images in 10 classes (6,000 images per class).
 - Split: 50,000 training images and 10,000 test images.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The model is a customized **Vision Transformer** built with the following key components:
 
@@ -24,20 +24,20 @@ The model is a customized **Vision Transformer** built with the following key co
 
 ---
 
-## 🔧 Features
+##  Features
 
-- ✅ ViT implementation in PyTorch  
-- ✅ Cosine learning rate scheduling with warm-up  
-- ✅ Label smoothing in cross-entropy loss  
-- ✅ Gradient clipping for stability  
-- ✅ Enhanced data augmentation pipeline  
-- ✅ Attention map visualization per layer  
-- ✅ Prediction confidence display  
-- ✅ Custom colormaps for insightful plots
+- ViT implementation in PyTorch  
+- Cosine learning rate scheduling with warm-up  
+- Label smoothing in cross-entropy loss  
+- Gradient clipping for stability  
+- Enhanced data augmentation pipeline  
+- Attention map visualization per layer  
+- Prediction confidence display  
+- Custom colormaps for insightful plots
 
 ---
 
-## 📈 Results
+## Results
 
 | Metric         | Value   |
 |----------------|---------|
